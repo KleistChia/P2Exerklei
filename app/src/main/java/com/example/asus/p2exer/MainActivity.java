@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView showName = (TextView) findViewById(R.id.name);
                 TextView showP_Number = (TextView) findViewById(R.id.phone_number);
                 showName.setText("Name :"+ name);
-                showP_Number.setText("Phone Number :"+ p_number);
+                showP_Number.setText(p_number);
             }
         }
     }
